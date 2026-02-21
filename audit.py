@@ -93,9 +93,7 @@ def main():
     banner()
 
     print(f"{Bcolors.BOLD}HOW TO ENTER LINKS:{Bcolors.RESET}")
-    print(f" - Standard:  {Bcolors.CYAN}example.com{Bcolors.RESET} or {Bcolors.CYAN}www.example.com{Bcolors.RESET}")
-    print(f" - Full URL:  {Bcolors.CYAN}https://example.com/page{Bcolors.RESET}")
-    print(f" - Formatted: {Bcolors.CYAN}printf(\"https:// www.example.com ||\"}}{Bcolors.RESET} (Auto-cleaned)")
+    print(f"{Bcolors.CYAN}example.com{Bcolors.RESET} or {Bcolors.CYAN}www.example.com{Bcolors.RESET} or {Bcolors.CYAN}https://example.com/page{Bcolors.RESET}")
     print("-" * 60)
     user_input = input("ENTER WEBSITE URL: ").strip()
     if not (user_input.startswith("http://") or user_input.startswith("https://")):
