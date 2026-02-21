@@ -30,9 +30,8 @@ The auditor analyzes:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com
+git clone https://github.com/nidhibaratam/gdpr_tool
 cd gdpr_tool
-Use code with caution.
 ```
 
 ### 2. Set up Virtual Environment
