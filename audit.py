@@ -23,8 +23,8 @@ def banner():
                                                |___/             
     """
     print(f"{Bcolors.CYAN}{art}{Bcolors.RESET}")
-    print(f"\t{Bcolors.BOLD}AUTHOR: NIDHI | VERSION: 1.0 (Stable Release){Bcolors.RESET}\n")
-
+    print(f"\t{Bcolors.BOLD}AUTHOR: BARATAM NIDHISHRI | VERSION: 1.0 (Stable Release){Bcolors.RESET}\n")
+    
 def analyze_gdpr_compliance(url):
     report = {"score": 100, "findings": []}
     parsed_url = urlparse(url)
@@ -91,6 +91,12 @@ def analyze_gdpr_compliance(url):
 
 def main():
     banner()
+
+    print(f"{Bcolors.BOLD}HOW TO ENTER LINKS:{Bcolors.RESET}")
+    print(f" - Standard:  {Bcolors.CYAN}example.com{Bcolors.RESET} or {Bcolors.CYAN}www.example.com{Bcolors.RESET}")
+    print(f" - Full URL:  {Bcolors.CYAN}https://example.com/page{Bcolors.RESET}")
+    print(f" - Formatted: {Bcolors.CYAN}printf(\"https:// www.example.com ||\"}}{Bcolors.RESET} (Auto-cleaned)")
+    print("-" * 60)
     user_input = input("ENTER WEBSITE URL: ").strip()
     if not (user_input.startswith("http://") or user_input.startswith("https://")):
         user_input = "https://" + user_input
