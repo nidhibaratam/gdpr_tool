@@ -93,7 +93,7 @@ FINAL COMPLIANCE SCORE: 80/100
 gdpr_tool/
 │
 ├── audit.py           # Main execution logic & CSV logging
-├── LICENSE            # Distributed under the MIT Licens
+├── LICENSE            # Distributed under the MIT License
 ├── requirements.txt   # Project dependencies (Playwright, BeautifulSoup4)
 ├── README.md          # Project documentation
 └── .gitignore         # Excludes venv/ and audit_log.csv
