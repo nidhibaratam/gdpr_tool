@@ -59,8 +59,33 @@ Run the auditor and enter any URL when prompted:
 python audit.py
 ```
 
-### Example Output:
+## 🖥️ Sample Terminal Output
 
+```bash
+ ____ ____  ____  ____                      _                    
+/ ___|  _ \|  _ \|  _ \    __ _ _ __   __ _| |_   _ _______ _ __ 
+| |  _| | | | |_) | |_) |  / _` | '_ \ / _` | | | | |_  / _ \ '__|
+| |_| | |_| |  __/|  _ <  | (_| | | | | (_| | | |_| |/ /  __/ |   
+ \____|____/|_|   |_| \_\  \__,_|_| |_|\__,_|_|\__, /___\___|_|   
+                                               |___/              
+
+AUTHOR: BARATAM NIDHISHRI | VERSION: 1.0 (Stable Release)
+
+HOW TO ENTER LINKS:
+example.com or www.example.com or https://example.com/page
+------------------------------------------------------------
+ENTER WEBSITE URL: https://github.com/nidhibaratam/gdpr_tool
+
+[*] Running Nominal Audit...
+
+FINAL COMPLIANCE SCORE: 80/100
+------------------------------------------------------------
+✅ HTTPS Transmission Secure
+⚠️ 6 cookies set: Penalty -20
+✅ Privacy Policy link found
+
+[!] Audit saved to audit_log.csv
+```
 
 ## 📂 Project Structure
 
@@ -76,7 +101,7 @@ gdpr_tool/
 
 ## 📜 License
 Distributed under the MIT License. See LICENSE for more information.
-Author: Nidhi Baratam
+Author: BARATAM NIDHISHRI
 
 ### 🚀 How to update this on your GitHub:
 1. Copy the code above.
