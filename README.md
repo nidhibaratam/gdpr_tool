@@ -51,14 +51,12 @@ python -m venv venv
 ```bash
 pip install -r requirements.txt
 python3 -m playwright install chromium
-Use code with caution.
 ```
 
 ## 🧪 Usage
 Run the auditor and enter any URL when prompted:
 ```bash
 python audit.py
-Use code with caution.
 ```
 
 ### Example Output:
